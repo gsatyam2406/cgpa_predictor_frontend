@@ -1,7 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://cgpa-predictor-backend.onrender.com";
-
+const API_URL = "https://cgpa-predictor-k5tf.onrender.com";
 export async function predictCGPA(data) {
   const response = await axios.post(
     `${API_URL}/predict`,
